@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
+    <title> IMAGENS </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1> <br> COMO ADICIONAR IMAGENS AO MEU CÓDIGO HTML5?  </h1>
+
+    <h2> ♥ IMAGENS INTERNAS ♥ </h2>
+    <dl>
+        <dt> ♥ 1º Passo: Crie uma pasta ♥ </dt>
+        <dd> <br> ☀ Para você adicionar uma imagem ao seu código, é bem simples, crie uma pasta imagem ou com o nome de sua preferência dentro da pasta onde seu código está sendo criado. 
+            <br>
+            <br> <img src="imagens/Adicionar imagem HTML5.png" alt="adicionando imagem ao código html5"> </dd>
+
+        <dt> <br> ♥ 2º Passo: Abrindo a tag ♥ </dt>
+        <dd> <br> ☀ Abra a tag img e dentro do src, pressione ctrl + espaço, escolha a pasta que você criou e selecione a imagem que você deseja incluir em seu código, o mesmo serve para subpastas e lembre-se de incluir uma breve descrição dentro do alt.
+            <br> 
+            <br> <img src="imagens/Adicionar imagem dentro de uma pasta.png" alt="adicionando imagem dentro de uma pasta"></dd>
+
+        <p> ☀ Parabéns, você conseguiu adicionar imagens hospedadas em servidor próprio ao seu código HTML5, para incluir imagens externas, siga o próximo passo a passo. </p>
+
+        <h2> ♥ IMAGENS EXTERNAS ♥ </h2>
+
+        <dt> ♥ 1º Passo: Escolha uma imagem livre de direitos autorais ♥ </dt>
+        <dd> <br> ☀ É importante que a imagem não tenha direitos autorais ou seja de autoria própria para evitar problemas com a justiça, copie o link dessa imagem e adicione seguindo o passo a seguir. </dd>
+
+        <dt> <br> ♥ 2º Passo: Utilize a tag img src novamente ♥ </dt>
+        <dd> <br> ☀ Dessa vez, você colará o link da imagem dentro do src, não esqueça de colocar a breve descrição da imagem no alt.
+            <br>
+            <br> <img src="https://images.pexels.com/photos/5874697/pexels-photo-5874697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="width:300px; height:250px;" alt="corações"></dd>
+
+    </dl>
+
+    <h2> ♥ IMAGENS DINÂMICAS ♥ </h2>
+    <p> ☀ Experimente abrir esse site em outros dispositivos ou apenas aumente e diminua o tamanho do seu navegador. </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexível">
+    </picture>
+
+    <p> ☀ Para fazer isso, basta utilizar a tag picture, abrir a tag source e específicar o tamanho desejado, preencha o srcset com o caminho das imagens desejadas, especifique o tipo de item que você irá adicionar com o type. 
+        <br> 
+        <br> <img src="imagens/imagem dinamica.png" alt="imagem dinâmica">
+    </p>
+
+    <a href="index.html"> ♥ Voltar para a página inicial ♥ </a>
+
+    <h5> <small> <em> @cibellymei </em> </small> </h5>
+    
+</body>
+</html>
